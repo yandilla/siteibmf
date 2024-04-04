@@ -1,0 +1,115 @@
+/* MENU NAVEGAÇÃO */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+   
+}
+
+
+header {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%); /*cor do texto */
+    padding: 20px 0; /* muda tamanho da faixa de cima */
+    
+}
+
+ul {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+
+/* PAGINA PRINCIPAL */
+
+main {
+    height: calc(100% - 30px); /* Altura total da tela menos a altura do cabeçalho */
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustar a imagem para preencher o contêiner mantendo a proporção */
+    position: relative; /* Adiciona posicionamento relativo */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher o contêiner mantendo a proporção */
+}
+
+
+.main-container {
+    position: absolute; /* Define a posição absoluta para que o texto possa ser movido livremente */
+    top: 30%; /* Define a posição verticalmente no meio */
+    left: 50%; /* Define a posição horizontalmente no meio */
+    transform: translate(-50%, -50%); /* Move o texto de volta em 50% de sua própria largura e altura */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: whitesmoke; /* Define a cor do texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Define a família da fonte */
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;;
+    z-index: 1; /* Garante que o texto esteja na frente da imagem */
+    width: 100%;
+   
+    
+}
+
+.title {
+    align-items: center;
+    font-size: 4rem; /* Define o tamanho da fonte */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    
+
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+
+
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+ 
+
