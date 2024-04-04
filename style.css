@@ -59,7 +59,7 @@ main img {
     transform: translate(-50%, -50%); /* Move o texto de volta em 50% de sua própria largura e altura */
     text-align: center; /* Centraliza o texto horizontalmente */
     color: whitesmoke; /* Define a cor do texto */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Define a família da fonte */
+    font-family: "Merriweather Sans", sans-serif;
     text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -74,7 +74,8 @@ main img {
 .title {
     align-items: center;
     font-size: 4rem; /* Define o tamanho da fonte */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: "Merriweather Sans", sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  */
     
 
 }
@@ -87,27 +88,18 @@ h3 {
 
 
 .map-responsive{
-
     overflow:hidden;
-
     padding-bottom:56.25%;
-
     position:relative;
-
     height:0;
 
 }
 
 .map-responsive iframe{
-
     left:0;
-
     top:0;
-
     height:100%;
-
     width:100%;
-
     position:absolute;
 
 }
